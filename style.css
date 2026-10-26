@@ -148,3 +148,8 @@ footer {
     max-width: 100%;
   }
 }
+#about{
+  margin-top: 48px;
+  max-width: 600px;
+  line-height: 1.9;
+}
