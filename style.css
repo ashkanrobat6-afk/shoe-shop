@@ -148,8 +148,125 @@ footer {
     max-width: 100%;
   }
 }
-#about{
-  margin-top: 48px;
-  max-width: 600px;
-  line-height: 1.9;
+#clear {
+  background: transparent;
+  color: #f87171;
+  border: 2px solid #f87171;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#clear:hover {
+  background: #f87171;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(248, 113, 113, 0.5);
+}
+
+#clear:active {
+  transform: scale(0.95);
+}
+.contact-form {
+  background: white;
+  padding: 28px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-top: 5px solid #38bdf8;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #1e293b;
+  margin-top: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: white;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+#about {
+  background: white;
+  max-width: 800px;
+  margin: 48px auto 0;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-right: 5px solid #38bdf8;
+  line-height: 2;
+  text-align: justify;
+}
+
+#about h2 {
+  color: #1e293b;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#about p {
+  color: #475569;
+  font-size: 18px;
+}
+header li {
+  list-style: none;
+}
+
+nav a {
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: rgba(56, 189, 248, 0.2);
+  color: #38bdf8;
+}
+
+#cart-count {
+  display: inline-block;
+  min-width: 24px;
+  padding: 2px 8px;
+  background: #38bdf8;
+  color: #1e293b;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 999px;
+}
+header {
+  padding: 24px 40px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+nav a {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#cart-count {
+  font-size: 18px;
+}
+
+#clear {
+  font-size: 16px;
 }

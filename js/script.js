@@ -9,3 +9,9 @@ buttons.forEach(function (button) {
     cartCount.textContent = count;
   });
 });
+const clearButton = document.getElementById("clear");
+
+clearButton.addEventListener("click", function () {
+  count = 0;
+  cartCount.textContent = count;
+});
